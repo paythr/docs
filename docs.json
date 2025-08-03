@@ -17,8 +17,10 @@
                         "group": "Ondersteuning",
                         "pages": [
                             "index",
-                            "quickstart",
-                            "development"
+                            "dashboard/berichteninbox",
+                            "dashboard/functies",
+                            "dashboard/zondercao",
+                            "dashboard/statistieken"
                         ]
                     },
                     {
