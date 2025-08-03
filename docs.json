@@ -1,384 +1,334 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
-  "name": "PaytHR",
-  "colors": {
-    "primary": "#d60a52",
-    "light": "#d4d4d4",
-    "dark": "#eb600d"
-  },
-  "favicon": "https://platform.paythr.com/favicon.ico",
-  "navigation": {
-    "tabs": [
-      {
-        "tab": "Dashboard",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "Functies",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "functies/introduction"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },      
-      {
-        "tab": "Reseller",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },   
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "mint",
+    "name": "PaytHR",
+    "colors": {
+        "primary": "#d60a52",
+        "light": "#d4d4d4",
+        "dark": "#eb600d"
+    },
+    "favicon": "https://platform.paythr.com/favicon.ico",
+    "navigation": {
+        "tabs": [
             {
-        "tab": "Uitzendbureaus",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },   
+                "tab": "Dashboard",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Customization",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Writing content",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/reusable-snippets"
+                        ]
+                    },
+                    {
+                        "group": "AI tools",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    }
+                ]
+            },
             {
-        "tab": "Inleners",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      }, 
+                "tab": "Functies",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "functies/introduction"
+                        ]
+                    }
+                ]
+            },
             {
-        "tab": "Medewerkers",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },   
+                "tab": "Reseller",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "reseller/introduction"
+                        ]
+                    }
+                ]
+            },
             {
-        "tab": "Freelancers",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
-            ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },  
+                "tab": "Uitzendbureaus",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Customization",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Writing content",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/reusable-snippets"
+                        ]
+                    },
+                    {
+                        "group": "AI tools",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    }
+                ]
+            },
             {
-        "tab": "Overig",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "quickstart",
-              "development"
+                "tab": "Inleners",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Customization",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Writing content",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/reusable-snippets"
+                        ]
+                    },
+                    {
+                        "group": "AI tools",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Medewerkers",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Customization",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Writing content",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/reusable-snippets"
+                        ]
+                    },
+                    {
+                        "group": "AI tools",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Freelancers",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Customization",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Writing content",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/reusable-snippets"
+                        ]
+                    },
+                    {
+                        "group": "AI tools",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Overig",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "index",
+                            "quickstart",
+                            "development"
+                        ]
+                    },
+                    {
+                        "group": "Customization",
+                        "pages": [
+                            "essentials/settings",
+                            "essentials/navigation"
+                        ]
+                    },
+                    {
+                        "group": "Writing content",
+                        "pages": [
+                            "essentials/markdown",
+                            "essentials/code",
+                            "essentials/images",
+                            "essentials/reusable-snippets"
+                        ]
+                    },
+                    {
+                        "group": "AI tools",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "API reference",
+                "groups": [
+                    {
+                        "group": "API documentation",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    },
+                    {
+                        "group": "Endpoint examples",
+                        "pages": [
+                            "api-reference/endpoint/get",
+                            "api-reference/endpoint/create",
+                            "api-reference/endpoint/delete",
+                            "api-reference/endpoint/webhook"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Documentation",
+                    "href": "https://paythr.mintlify.app/",
+                    "icon": "book-open-cover"
+                },
+                {
+                    "anchor": "Payoffice.nl",
+                    "href": "https://payoffice.nl",
+                    "icon": "slack"
+                },
+                {
+                    "anchor": "PaytHR.nl",
+                    "href": "https://paythr.nl",
+                    "icon": "newspaper"
+                }
             ]
-          },
-          {
-            "group": "Customization",
-            "pages": [
-              "essentials/settings",
-              "essentials/navigation"
-            ]
-          },
-          {
-            "group": "Writing content",
-            "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
-            ]
-          },
-          {
-            "group": "AI tools",
-            "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },   
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint examples",
-            "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://paythr.mintlify.app/",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Payoffice.nl",
-          "href": "https://payoffice.nl",
-          "icon": "slack"
-        },
-        {
-          "anchor": "PaytHR.nl",
-          "href": "https://paythr.nl",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/light.svg",
+        "dark": "/logo/dark.svg"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Ondersteuning",
+                "href": "mailto:backoffice@payoffice.nl"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Platform",
+            "href": "https://platform.paythr.com"
+        }
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "x": "https://x.com/mintlify",
+            "github": "https://github.com/mintlify",
+            "linkedin": "https://linkedin.com/company/mintlify"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Ondersteuning",
-        "href": "mailto:backoffice@payoffice.nl"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Platform",
-      "href": "https://platform.paythr.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
-    }
-  }
 }
