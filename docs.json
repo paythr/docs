@@ -4,8 +4,8 @@
   "name": "PaytHR",
   "colors": {
     "primary": "#d60a52",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#d4d4d4",
+    "dark": "#eb600d"
   },
   "favicon": "/favicon.svg",
   "navigation": {
