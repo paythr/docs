@@ -95,14 +95,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Ondersteuning",
+        "href": "mailto:backoffice@payoffice.nl"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Platform",
+      "href": "https://platform.paythr.com"
     }
   },
   "contextual": {
