@@ -1,4 +1,4 @@
-{
+aandeuren{
     "$schema": "https://mintlify.com/docs.json",
     "theme": "mint",
     "name": "PaytHR",
@@ -14,7 +14,7 @@
                 "tab": "Dashboard",
                 "groups": [
                     {
-                        "group": "Getting started",
+                        "group": "Ondersteuning",
                         "pages": [
                             "index",
                             "quickstart",
@@ -24,8 +24,18 @@
                     {
                         "group": "Berichtenbox",
                         "pages": [
-                            "essentials/settings",
-                            "essentials/navigation"
+                            "dashboard/verloning",
+                            "dashboard/verjaardagen",
+                            "dashboard/openstaandeuren",
+                            "dashboard/tetekenen",
+                            "dashboard/ontbrekendedocumenten",
+                            "dashboard/contractverlenging",
+                            "dashboard/aflopendecontracten",
+                            "dashboard/verlopencontracten",
+                            "dashboard/salarismutaties",
+                            "dashboard/componentwijzigingen",
+                            "dashboard/kredietlimiet",
+                            "dashboard/zorgverzekering"
                         ]
                     },
                     {
