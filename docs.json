@@ -22,14 +22,14 @@
                         ]
                     },
                     {
-                        "group": "Customization",
+                        "group": "Berichtenbox",
                         "pages": [
                             "essentials/settings",
                             "essentials/navigation"
                         ]
                     },
                     {
-                        "group": "Writing content",
+                        "group": "Functies",
                         "pages": [
                             "essentials/markdown",
                             "essentials/code",
@@ -38,7 +38,15 @@
                         ]
                     },
                     {
-                        "group": "AI tools",
+                        "group": "Inleners zonder CAO",
+                        "pages": [
+                            "ai-tools/cursor",
+                            "ai-tools/claude-code",
+                            "ai-tools/windsurf"
+                        ]
+                    },
+                    {
+                        "group": "Statistieken",
                         "pages": [
                             "ai-tools/cursor",
                             "ai-tools/claude-code",
