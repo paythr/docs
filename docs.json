@@ -91,7 +91,13 @@
                            {
                         "group": "Imports",
                         "pages": [
-                            "functies/imports"
+                            "functies/imports",
+                            "functies/bankimport",
+                            "functies/importwizard",
+                            "functies/jaaropgaven",
+                            "functies/loonbetalingen",
+                            "functies/loonstrokenimport",
+                            "functies/reserveringenimport"  
                         ]
                     },
                                {
