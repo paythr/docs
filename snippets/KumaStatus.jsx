@@ -5,7 +5,7 @@ export default function KumaStatus() {
   const [icon, setIcon] = useState("⏳");
 
   useEffect(() => {
-    fetch("http://104.234.133.14/api/status/paythr")
+    fetch("http://104.234.133.14/api/status-page/paythr")
       .then((res) => res.json())
       .then((data) => {
         const monitor = data.monitors.find(
