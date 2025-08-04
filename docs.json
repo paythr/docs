@@ -70,6 +70,12 @@
             {
                 "tab": "Functies",
                 "groups": [
+                         {
+                        "group": "Getting started",
+                        "pages": [
+                            "functies/introduction"
+                        ]
+                    }   
                     {
                         "group": "Tijdregistratie",
                         "pages": [
