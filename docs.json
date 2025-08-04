@@ -71,63 +71,63 @@
                 "tab": "Functies",
                 "groups": [
                     {
-                        "group": "Getting started",
+                        "group": "Tijdregistratie",
                         "pages": [
-                            "functies/introduction"
+                            "functies/tijdregistratie"
                         ]
                     },
                         {
-                        "group": "Getting started",
+                        "group": "Facturen",
                         "pages": [
-                            "functies/introduction"
+                            "functies/facturen"
                         ]
                     },
                            {
-                        "group": "Getting started",
+                        "group": "Imports",
                         "pages": [
-                            "functies/introduction"
+                            "functies/imports"
                         ]
                     },
                                {
-                        "group": "Getting started",
+                        "group": "Exports",
                         "pages": [
-                            "functies/introduction"
+                            "functies/exports"
                         ]
                     },
                               {
-                        "group": "Getting started",
+                        "group": "Loonstroken",
                         "pages": [
-                            "functies/introduction"
+                            "functies/loonstroken"
                         ]
                     },
                                {
-                        "group": "Getting started",
+                        "group": "Documenten",
                         "pages": [
-                            "functies/introduction"
+                            "functies/documenten"
                         ]
                     },
                                 {
-                        "group": "Getting started",
+                        "group": "Verzuimmeldingen",
                         "pages": [
-                            "functies/introduction"
+                            "functies/verzuimmeldingen"
                         ]
                     },
                                 {
-                        "group": "Getting started",
+                        "group": "Uit dienst",
                         "pages": [
-                            "functies/introduction"
+                            "functies/uitdienst"
                         ]
                     },
                                   {
-                        "group": "Getting started",
+                        "group": "Proforma loonstrook",
                         "pages": [
-                            "functies/introduction"
+                            "functies/proforma"
                         ]
                     },
                                   {
-                        "group": "Getting started",
+                        "group": "Logboek",
                         "pages": [
-                            "functies/introduction"
+                            "functies/logboek"
                         ]
                     }    
                 ]
