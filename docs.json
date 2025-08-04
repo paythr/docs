@@ -103,7 +103,19 @@
                                {
                         "group": "Exports",
                         "pages": [
-                            "functies/exports"
+                            "functies/exports",
+                            "functies/boekhoudexport",
+                            "functies/factoringmaatschappij",
+                            "functies/hollandzorgexport",
+                            "functies/margeoverzichtexporteren",
+                            "functies/margeseninhoudingen",
+                            "functies/mijnsubsidieexport",
+                            "functies/resellermarges",
+                            "functies/uitbetalingvoorfreelancers",
+                            "functies/verloningexport",
+                            "functies/verzuimurenexport",
+                            "functies/werknemersexport"
+                          
                         ]
                     },
                               {
