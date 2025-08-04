@@ -60,3 +60,52 @@ Everything you need to create world-class documentation.
 <Card title="See complete examples" icon="stars" href="https://mintlify.com/customers">
   Browse our showcase of exceptional documentation sites.
 </Card>
+
+
+
+
+<div id="kuma-status-card" style="
+  font-family: Arial, sans-serif;
+  border-radius: 8px;
+  padding: 15px;
+  width: 250px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  background-color: white;
+  text-align: center;
+  font-size: 16px;
+">
+  <strong>Website Status</strong>
+  <div id="status-icon" style="font-size: 50px; margin: 10px 0;">⏳</div>
+  <div id="status-text">Checking status...</div>
+</div>
+
+<script>
+const kumaStatusUrl = "http://104.234.133.14/status/payoffice"; // Public status page API
+const monitorName = "CM.com - emails"; // Exact name of your monitor in Kuma
+
+fetch(kumaStatusUrl)
+  .then(res => res.json())
+  .then(data => {
+    const monitor = data.monitors.find(m => m.name === monitorName);
+    const iconEl = document.getElementById("status-icon");
+    const textEl = document.getElementById("status-text");
+
+    if (!monitor) {
+      iconEl.textContent = "⚠️";
+      textEl.textContent = "Monitor not found";
+      return;
+    }
+
+    if (monitor.status === 1) {
+      iconEl.textContent = "🟢";
+      textEl.textContent = "Online";
+    } else {
+      iconEl.textContent = "🔴";
+      textEl.textContent = "Offline";
+    }
+  })
+  .catch(() => {
+    document.getElementById("status-icon").textContent = "⚠️";
+    document.getElementById("status-text").textContent = "Error fetching status";
+  });
+</script>
