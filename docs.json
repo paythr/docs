@@ -163,10 +163,11 @@
                         "group": "Getting started",
                         "pages": [
                             "reseller/introduction",
-                          "reseller/details",
-                          "reseller/marges",
-                          "reseller/facturen",
-                          "reseller/loggen"
+                            "reseller/nieuw"
+                            "reseller/details",
+                            "reseller/marges",
+                            "reseller/facturen",
+                            "reseller/loggen"
                         ]
                     }
                 ]
