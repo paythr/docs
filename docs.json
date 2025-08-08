@@ -216,7 +216,7 @@
                     {
                         "group": "Getting started",
                         "pages": [
-                            "medewerkers/introduction"
+                            "medewerkers/introduction",
                             "medewerkers/details",
                             "medewerkers/tewerkstellingen",
                             "medewerkers/documenten",
@@ -234,7 +234,14 @@
                     {
                         "group": "Getting started",
                         "pages": [
-                            "freelancers/introduction"
+                            "freelancers/introduction",
+                            "freelancers/details",
+                            "freelancers/plaatsingen",
+                            "freelancers/documenten",
+                            "freelancers/facturen",
+                            "freelancers/uren",
+                            "freelancers/loggen",
+                            "freelancers/archief"          
                         ]
                     }
                 ]
