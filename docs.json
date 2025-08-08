@@ -178,7 +178,15 @@
                     {
                         "group": "Getting started",
                         "pages": [
-                            "uitzendbureaus/introduction"
+                            "uitzendbureaus/introduction",
+                            "uitzendbureaus/details",
+                            "uitzendbureaus/documenten",
+                            "uitzendbureaus/facturen",
+                            "uitzendbureaus/medewerkers",
+                            "uitzendbureaus/freelancers",
+                            "uitzendbureaus/inleners",
+                            "uitzendbureaus/loggen",
+                            "uitzendbureaus/archief"
                         ]
                     }
                 ]
