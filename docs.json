@@ -217,6 +217,13 @@
                         "group": "Getting started",
                         "pages": [
                             "medewerkers/introduction"
+                            "medewerkers/details",
+                            "medewerkers/tewerkstellingen",
+                            "medewerkers/documenten",
+                            "medewerkers/uren",
+                            "medewerkers/loonbeslagen",
+                            "medewerkers/loggen",
+                            "medewerkers/archief"
                         ]
                     }
                 ]
