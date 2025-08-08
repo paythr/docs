@@ -252,7 +252,33 @@
                     {
                         "group": "Getting started",
                         "pages": [
-                            "overig/introduction"
+                            "overig/introduction",
+                            "overig/zoeken",
+                            "overig/aankondigingen",
+                            "overig/account",
+                            "overig/taal",
+                            "overig/helpcentrum"
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "Instellingen",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "instellingen/introduction",
+                            "instellingen/documenten",
+                            "instellingen/notificaties",
+                            "instellingen/ondernemingen",
+                            "instellingen/factoringmaatschappij",
+                            "instellingen/subsidie",
+                            "instellingen/gebruikers",
+                            "instellingen/rollen",
+                            "instellingen/webhooks",
+                            "instellingen/persoonlijketoken",
+                            "instellingen/aankondigingen"
                         ]
                     }
                 ]
