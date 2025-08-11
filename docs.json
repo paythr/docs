@@ -284,6 +284,18 @@
                 ]
             },
             {
+                "tab": "How-to",
+                "groups": [
+                    {
+                        "group": "How-to",
+                        "pages": [
+                            "howto/introduction",
+                            "howto/ureninvoeren"
+                        ]
+                    }
+                ]
+            },
+            {
                 "tab": "API reference",
                 "groups": [
                     {
