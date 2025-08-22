@@ -290,7 +290,8 @@
                         "group": "How-to",
                         "pages": [
                             "howto/introduction",
-                            "howto/tijdsregistratie"
+                            "howto/tijdsregistratie",
+                            "howto/data"
                         ]
                     }
                 ]
