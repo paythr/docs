@@ -43,10 +43,10 @@
                     {
                         "group": "Functies",
                         "pages": [
-                            "essentials/markdown",
-                            "essentials/code",
-                            "essentials/images",
-                            "essentials/reusable-snippets"
+                            "functies/tijdregistratie",
+                            "functies/facturen",
+                            "functies/documenten",
+                            "functies/proforma"
                         ]
                     },
                     {
