@@ -296,6 +296,19 @@
                     }
                 ]
             },
+                      {
+                "tab": "FAQ",
+                "groups": [
+                    {
+                        "group": "FAQ",
+                        "pages": [
+                            "faq/factuurlayout",
+                            "faq/factuurlayout",
+                            "faq/factuurlayout"
+                        ]
+                    }
+                ]
+            },
             {
                 "tab": "API reference",
                 "groups": [
